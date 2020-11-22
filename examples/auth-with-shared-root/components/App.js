@@ -17,7 +17,7 @@ const App = createReactClass({
     })
   },
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     auth.onChange = this.updateAuth
     auth.login()
   },

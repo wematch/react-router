@@ -16,7 +16,7 @@ const App = createReactClass({
     }
   },
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     ContactStore.init()
   },
 
